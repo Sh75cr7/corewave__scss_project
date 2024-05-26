@@ -1,0 +1,33 @@
+#experience{
+    margin-top: 85px;
+    margin-bottom: 100px;
+    h2{     
+font-size: 45px;
+font-weight: 600;
+line-height: 54px;
+color: $black;
+
+    }
+    p{
+      
+@include paragraph;
+width: 550px;
+margin-top: 29px;
+margin-bottom: 45px;
+
+
+    }
+    a{
+
+@include btn;
+color: $primary;
+background: $exbtn;
+
+
+
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+    }
+}

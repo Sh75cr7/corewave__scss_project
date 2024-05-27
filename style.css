@@ -438,6 +438,20 @@ nav .navbtn:hover {
 #clients {
   margin-bottom: 100px;
 }
+#clients .carousel-indicators {
+  bottom: -60px;
+}
+#clients .carousel-indicators .active {
+  background: #06C279 !important;
+}
+#clients .carousel-indicators li {
+  list-style: none;
+  width: 35px !important;
+  height: 10px !important;
+  border: 0px !important;
+  border-radius: 50px !important;
+  background: #D7D7D7 !important;
+}
 #clients h3 {
   text-align: center;
   font-weight: 600;

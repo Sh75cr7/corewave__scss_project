@@ -1,0 +1,31 @@
+#worries{
+    background: $primary;
+ height: 311px;
+ margin-bottom: 100px;
+ position: relative;
+ h2{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    color: $white;
+    margin-top: 90px;
+ }
+ a{
+    @include btn;
+    
+    .worriesbtn{
+        margin-top: 30px;
+    }
+    &:hover{
+        background: $black;
+        color: $white;
+    }
+ }
+ img{
+    position: absolute;
+    bottom: 0;
+    height: 348px;
+   right: 0;
+    // width: 340px;
+ }
+}
